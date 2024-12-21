@@ -1,7 +1,3 @@
 {
-    "builds": [
-      {
-        "command": "bun run start"
-      }
-    ]
-  }
+  "routes": [{ "src": "/[^.]+", "dest": "/", "status": 200 }]
+}
