@@ -4,9 +4,22 @@
 
 html,
 body {
-  @apply bg-white dark:bg-gray-950;
+    background-color: #FAFAFA;
+}
 
-  @media (prefers-color-scheme: dark) {
-    color-scheme: dark;
-  }
+div::-webkit-scrollbar {
+    width: 4px;
+}
+
+div::-webkit-scrollbar-track {
+    background: #F0F0F0;
+}
+
+div::-webkit-scrollbar-thumb {
+    background-color: #abceff;
+    border-radius: 4px;
+}
+
+div::-webkit-scrollbar-thumb:hover {
+    background-color: #ddebff;
 }

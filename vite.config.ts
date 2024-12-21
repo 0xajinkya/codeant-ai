@@ -11,4 +11,7 @@ export default defineConfig({
     },
   },
   plugins: [reactRouter(), tsconfigPaths()],
+  ssr: {
+    noExternal: ['styled-components']
+  }
 });
